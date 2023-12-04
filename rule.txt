@@ -1,0 +1,54 @@
+red_balls_on_table = 15
+colored_balls_on_table = 6
+reds_potted = 0
+colored_potted = 0
+player_score = 0
+current_player = player_1
+
+while red_balls_on_table + colored_balls_on_table > 0:
+    display current player and their score
+
+    if current_player attempts to hit the cue ball:
+        Identify the ball(s) potted
+        if the potted ball is red:
+            reds_potted += 1
+            red_balls_on_table += 1
+            player_score += 1
+
+            if its the end of a player turn:
+                if colored_potted < 1:
+                    end current player's turn 
+                    Reset colored_potted=0
+                else:
+                    colored_potted = 0
+
+        else if the potted ball is colored:
+            colored_potted += 1
+            colored_balls_on_table -= 1
+
+            #update player_score based on the color#
+                if colored ball is yellow:
+                    player_score += 2 
+                if colored ball is green:
+                    player_score += 3
+                if colored ball is brown:
+                    player_score += 4
+                if colored ball is blue:
+                    player_score += 5
+                if colored ball is pink:
+                    player_score += 6
+                if colored ball is black:
+                    player_score += 7
+
+            #check if its the end of a player turn:#
+                if colored_potted > 1 or reds_potted < 1:
+                    End current player's turn (incorrect sequence)
+                    Reset reds_potted to 0
+                else:
+                    reds_potted = 0
+
+        else if no balls potted:
+            end current player's turn (foul)
+            reset reds_potted and colored_potted to 0
+
+    switch to the next player

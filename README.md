@@ -3,5 +3,6 @@ SnookerSyS Is a snooker game detection system developed using python and openCV.
 The system require the use of an mp4 file to run. 
 To get the mp4 file, click the link below:
 https://drive.google.com/drive/folders/1vsWOigeivt_YuTRc4s7De0h6-AVu87Uu
+NOTE : The link require 
 
 PLEASE NOTE THAT THE SYSTEM IS UNFINISHED.

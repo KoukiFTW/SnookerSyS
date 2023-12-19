@@ -4,6 +4,6 @@ The system require the use of an mp4 file to run.
 To get the mp4 file, click the link below:
 https://drive.google.com/drive/folders/1vsWOigeivt_YuTRc4s7De0h6-AVu87Uu
 
-NOTE : The link might need you to get an access first before getting the video.
+NOTE : Link only work for UTS student account....
 
 PLEASE NOTE THAT THE SYSTEM IS IN DEVELOPMENT AND CURRENTLY UNFINISH.....

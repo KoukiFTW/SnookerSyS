@@ -6,4 +6,5 @@ https://drive.google.com/drive/folders/1vsWOigeivt_YuTRc4s7De0h6-AVu87Uu
 
 NOTE : Link only work for UTS student account....
 
-PLEASE NOTE THAT THE SYSTEM IS IN DEVELOPMENT AND CURRENTLY UNFINISH.....
+THE SYSTEM IS FINISH..
+(SOME TUNING IS REQUIRED BUT IT IS MAINLY FINISH)
